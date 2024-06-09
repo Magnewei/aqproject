@@ -12,6 +12,7 @@ export const Weapon = [
               { shaft: 'brown shaft' },
               { bottomPiece: 'brown wooden piece' },
             ],
+
             swordBlade: [{ steel: 'dragonsteel' }, { polish: 'dragon tears' }],
           },
         ],
@@ -22,6 +23,8 @@ export const Weapon = [
 
 function createButtonForEach() {
   // TODO: destructure weapon array, create button for each from top to bottom.
+  // TODO: add button component with styling etc. for each button.
+  // TOOD: Maybe make a list component to hold buttons?
 }
 
 export function Home() {
@@ -30,7 +33,6 @@ export function Home() {
       <SiteHeader />
       <div>
         <Card />
-        <AQCard />
         <AQCard />
       </div>
     </>
