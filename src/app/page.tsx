@@ -1,5 +1,3 @@
-import { AQCard } from '@/components/ui/aqcard';
-import { Card } from '@/components/ui/card';
 import SiteHeader from '@/components/ui/siteheader';
 
 export const Weapon = [
@@ -31,10 +29,7 @@ export function Home() {
   return (
     <>
       <SiteHeader />
-      <div>
-        <Card />
-        <AQCard />
-      </div>
+      <div></div>
     </>
   );
 }
