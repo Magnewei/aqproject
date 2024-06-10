@@ -1,0 +1,30 @@
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 30px;
+}
+.text {
+  font-family: '';
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.ItemList {
+  display: flex;
+  justify-content: center;
+}
+
+.linker {
+  font-family: '';
+  color: blue;
+  font-size: 30px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.linker:link {
+  color: red;
+}

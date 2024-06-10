@@ -1,9 +1,7 @@
-'use client';
-import './ItemList.css';
-import styles from './ItemList.module.css';
-
-import React, { useState } from 'react';
-
-export default function ItemList({ items }) {
+export default function DaysToComplete({ items }) {
   return <div></div>;
+}
+
+const generateCost = () => {
+  return();
 }
