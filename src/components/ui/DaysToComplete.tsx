@@ -2,4 +2,6 @@ export default function DaysToComplete({ items }) {
   return <div></div>;
 }
 
-const generateCost = () => {};
+const generateCost = () => {
+  // pls vercel
+};
