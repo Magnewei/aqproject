@@ -1,6 +1,6 @@
+import DaysToComplete from '@/components/ui/DaysToComplete';
 import ItemList from '@/components/ui/ItemList';
 import SiteHeader from '@/components/ui/siteheader';
-import DaysToComplete from '@/components/ui/DaysToComplete';
 
 const voidHighlord = [
   {
@@ -71,6 +71,7 @@ export default function Home() {
     <>
       <SiteHeader />
       <ItemList items={voidHighlord} />
+      <DaysToComplete />
     </>
   );
 }
